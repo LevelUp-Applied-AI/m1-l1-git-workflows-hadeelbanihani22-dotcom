@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FdVrU54p)
-# [Project Title — e.g., Hospital Admission Records Analysis]
+
 # Hospital Admission Records Analysis
 
 
@@ -11,8 +11,7 @@
 ## Project Overview
 
 
-This project analyzes hospital admission records to identify trends, patterns, and insights that can support better healthcare planning and decision-making.
-
+This project analyzes hospital admission records to identify patterns in admissions, patient flow, and operational trends. It is designed for team members working on healthcare analytics and will produce structured analysis outputs, visual summaries, and future data-driven insights for reporting and decision support.
 ---
 
 ## Setup Instructions
@@ -31,6 +30,14 @@ python -m venv .venv
 pip install -r requirements.txt
 python test_environment.py    # should print "Environment OK"
 ```
+## Setup Instructions
+
+Clone the repository:
+
+```bash
+git clone <repo-url>
+cd m1-l1-git-workflows-hadeelbanihani22-dotcom
+python -m venv .venv
 
 ---
 
@@ -43,3 +50,20 @@ python test_environment.py    # should print "Environment OK"
 ---
 
 *Starter file for Lab 1 — lab-1-git-workflows | aispire-14005*
+# Hospital Admission Records Analysis
+
+## Team Members
+- Hadeel Banihani
+- Batool Madi
+- Deema Ashloul
+
+
+
+## Data Sources
+This project uses hospital admission records stored as raw tabular files for analysis and exploration.
+
+Data is not tracked in this repository. See the setup instructions below
+for how to obtain and place the data files before running any analysis.
+
+Expected raw data location:
+`data/raw/admissions.csv`
